@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ArrowRight } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ArrowRight, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold logo-text mb-4">Phoenix</h3>
+            <h3 className="text-2xl font-bold logo-text mb-4">Fynix</h3>
             <p className="text-muted-foreground mb-6 text-sm">
               Transforming brands through innovative digital marketing strategies. We turn your vision into measurable
               success.
@@ -22,10 +22,10 @@ export function Footer() {
               <a href="#" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
                 <Facebook className="w-4 h-4 text-muted-foreground group-hover:text-primary" />
               </a>
-              <a href="#" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
-                <Twitter className="w-4 h-4 text-muted-foreground group-hover:text-primary" />
+              <a href="https://www.youtube.com/@FYNIXDIGITA" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
+                <Youtube className="w-4 h-4 text-muted-foreground group-hover:text-primary" />
               </a>
-              <a href="#" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
+              <a href="https://www.instagram.com/fynix.digitalmedia?igsh=MWZ6ZWZ0bG9oaHUxeQ%3D%3D&utm_source=qr" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
                 <Instagram className="w-4 h-4 text-muted-foreground group-hover:text-primary" />
               </a>
               <a href="#" className="p-2 glass rounded-full hover:bg-primary/20 transition-colors group">
@@ -75,11 +75,11 @@ export function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">hello@phoenix.com</span>
+                <span className="text-muted-foreground text-sm">fynixdigitalsolution@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">+91 9847513034</span>
+                <span className="text-muted-foreground text-sm">+91 8075 935 636</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-primary" />
@@ -107,7 +107,7 @@ export function Footer() {
 
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-sm text-muted-foreground">© 2025 Phoenix. All rights reserved.</div>
+          <div className="text-sm text-muted-foreground">© 2025 Fynix. All rights reserved.</div>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               Privacy Policy

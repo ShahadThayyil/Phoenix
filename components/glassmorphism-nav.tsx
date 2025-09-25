@@ -37,7 +37,7 @@ export function GlassmorphismNav() {
     alt="DigitalFlow logo with bold modern design, accompanied by the text DigitalFlow in large font, representing a professional and innovative digital agency"
     className="h-24 w-auto sm:h-24"
   />
-  <h1 className="text-2xl sm:text-3xl font-bold logo-text">Phoenix</h1>
+  <h1 className="text-2xl sm:text-3xl font-bold logo-text"></h1>
 </div>
 
 

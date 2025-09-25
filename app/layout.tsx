@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Phoenix - Modern Digital Marketing Agency",
+  title: "Fynix - Modern Digital Marketing Agency",
   description:
     "Innovative digital marketing solutions that drive results. Transform your brand with cutting-edge strategies and creative excellence.",
   generator: "v0.app",
